@@ -1,0 +1,22 @@
+{
+  "name": "neverforgiven",
+  "version": "1.0.0",
+  "description": "A closed-source multi purpose discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n0tsiege/NeverForgiven.git"
+  },
+  "author": "n0tsiege",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/n0tsiege/NeverForgiven/issues"
+  },
+  "homepage": "https://github.com/n0tsiege/NeverForgiven#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
