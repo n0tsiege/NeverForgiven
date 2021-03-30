@@ -1,4 +1,4 @@
-If you are accessing this code (hereby 'source code', 'src', 'code', or 'source'), you agree to the following terms.
+By accessing this code (hereby 'source code', 'src', 'code', or 'source'), you agree to the following terms.
 
 1.0 Privacy and Sharing
 
@@ -7,4 +7,16 @@ If you are accessing this code (hereby 'source code', 'src', 'code', or 'source'
     1.3 You will not share any licenses, tokens, or any identifiers with any non-developer under any circumstances.
     1.4 You will not remove any copyright or trademark symbols, lines, or files such as licenses.
 
-2.0 Deployment and 
+2.0 Deployment and Approval
+
+    2.1 Each change must be made into a pull request on the GitHub repository. 
+        2.1.1 The link to the repository is htt[s://github.com/n0tsiege/NeverForgiven
+        2.1.2 If you need access, ask Siege (siege#4537). Send him your GitHub username.
+    2.2 Changes will be approved by Siege. Check dev-chat and to-do-list for what we need to begin and fix.
+
+3.0 File Modification
+
+    3.1 You may not make pull requests that create any form of new issue or add something that was not added.
+    3.2 Fast != good. Take your time. The goal is to make the bot well, not fast.
+        3.2.1 If you are found to be rushing things, you may be removed at any time.
+    3.3 You may not delete files or make big changes without approval. If there is something you would like to add/remove, 
