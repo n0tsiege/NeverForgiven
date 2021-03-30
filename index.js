@@ -7,6 +7,10 @@ const prefix = '/';
 
 const fs = require('fs');
 
+const ytdl = require("ytdl-core")
+
+var servers = {};
+
 client.commands = new Discord.Collection();
 
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
@@ -39,6 +43,12 @@ client.on('message', message =>{
             break;
             case 'support':
                 client.commands.get('support').execute(message, args)
+            break;
+            case 'play':
+                client.commands.get('play').execute(message, args)
+            break;
+            case 'leave':
+                client.commands.get('leave').execute(message, args)
             break;
         }
     }
