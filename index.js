@@ -22,6 +22,13 @@ for(const file of commandFiles){
 
 client.once('ready', () =>{
     console.log('NeverForgiven is now online.');
+    client.user.setPresence({
+        status: 'online',
+        activity: {
+            name: "dsc.gg/neverforgiven",
+            type: "WATCHING"
+        }
+    });
 });
 
 client.on('message', message =>{
