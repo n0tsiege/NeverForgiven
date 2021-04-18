@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const client = new Discord.Client
 
-const token = ''
+const token = '' // Removed
 
 const prefix = '/';
 
@@ -22,13 +22,6 @@ for(const file of commandFiles){
 
 client.once('ready', () =>{
     console.log('NeverForgiven is now online.');
-    client.user.setPresence({
-        status: 'online',
-        activity: {
-            name: "dsc.gg/neverforgiven",
-            type: "WATCHING"
-        }
-    });
 });
 
 client.on('message', message =>{
@@ -37,27 +30,9 @@ client.on('message', message =>{
         const args = message.content.slice(prefix.length).split(/ +/);
         const command = args.shift().toLowerCase();
 
-        if (command == 'ping'){
-            client.commands.get('ping').execute(message, args)
-        } /*else if (command == 'invite'){
-            client.commands.get('invite').execute(message, args)*/
-        switch (command){
-            case 'invite':
-                client.commands.get('invite').execute(message, args)
-            break;
-            case 'version':
-                client.commands.get('version').execute(message, args)
-            break;
-            case 'support':
-                client.commands.get('support').execute(message, args)
-            break;
-            case 'play':
-                client.commands.get('play').execute(message, args)
-            break;
-            case 'leave':
-                client.commands.get('leave').execute(message, args)
-            break;
-        }
+        if (command) {
+            client.commands.get(command).execute(message, args)
+          }
     }
 ,)
 
