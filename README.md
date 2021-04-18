@@ -1,2 +1,2 @@
 # NeverForgiven
-A closed-source multi purpose discord bot.
+An open-source multi purpose discord bot.
